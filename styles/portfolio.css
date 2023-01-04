@@ -123,3 +123,99 @@ justify-content: space-around;
     font-size: 20px;
     color: #474747;
 }
+
+
+/* what i do */
+.what-i-do{
+ margin-top: 130px; 
+ text-align: center;  
+}
+
+.skills-cnt{
+    display: flex;
+    /* below will put gap between all 4 */
+    gap: 24px;
+}
+
+.skill{
+    /* below 3 got from figma */
+    background-color: #FFFFFF;
+    box-shadow:0px 6px 50px rgba(0,0,0, 0.66) ;
+    border-radius: 20px;
+
+    padding: 30px;
+}
+
+.skill-title{
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.skill-desc{
+    color: #757575;
+}
+
+
+
+
+/* resume styles */
+.resume-cont{
+    display: flex;
+    gap: 40px;
+}
+
+.resume .title{
+color: #474747;
+font-weight: 700;
+font-size: 25px;
+margin-bottom: 10px;
+}
+
+.resume .subtitle{
+color: #757575;
+font-size: 20px;
+font-weight: 600;
+margin-bottom: 20px;
+}
+
+.resume .desc{
+    color: #757575;
+}
+
+.item{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.resume-btn{
+    margin-top: 50px;
+    text-align: center;
+}
+
+
+/* contact style */
+.contact{
+    display: flex;
+    gap: 117px;
+    background-color: #FFF8F3;
+    padding: 130px 200px;
+}
+.contact .last-title{
+    text-align: left;
+}
+
+/* below is for input and textareas of contact */
+.contact input[type ="text"],textarea{
+    margin-bottom: 24px;
+    border: 0;
+    width: 100%;
+    padding:18px 30px;
+}
+
+input{
+    height: 64px;
+}
+
