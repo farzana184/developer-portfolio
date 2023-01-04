@@ -1,0 +1,125 @@
+*{   
+    /* universal */
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+/* header and navigation styles */
+nav{
+    /*  for all 4 nav items */
+    /* bring all nav items in one line */
+    display: flex; 
+    /* put space between nav contents  */
+    justify-content: space-between;
+    margin: 50px 200px;
+}
+.nav-title{
+    font-weight: 800;
+font-size: 45px;
+}
+nav ul{
+    /* put list items in one line */
+    display: flex;
+    align-items: center;
+}
+nav li{
+    /* remove the dots from list items of nav */
+    list-style: none;
+    margin-left: 50px;
+}
+.text-primary{
+    /*  text color of text-primary class */
+    color:  #FD6E0A;
+}
+
+.btn-primary{
+    /* style for .btn-primary class mostly taken from figma
+     */
+    font-weight:700;
+    font-size: 20px;
+    color: #FFFFFF;
+    height: 64px;
+    border-radius: 5px;
+    background: #FD6E0A;
+    border: 0;
+    padding: 18px 35px;
+}
+
+/* banner styles */
+.banner{
+    display: flex;
+    align-items: center;
+    margin: 0 200px;
+}
+
+.banner-title{
+font-size: 85px;
+font-weight:  700;
+}
+.banner-st{
+    font-weight:  600;
+    font-size: 45px;
+    /* margin helps in spacing */
+    margin-bottom: 20px;
+
+}
+.banner-desc{
+color: #757575;
+font-size: 18px ;
+/* below will put the gap btwn btn and desc */
+margin-bottom: 30px;
+}
+
+.header{
+
+    background: #FFF8F3;
+    /* with , we can define multiple */
+    background-image: url('../images/header_bg.png'), url(../images/developer.png);
+    /* the below will stop bg img from repeating */
+    background-repeat: no-repeat;
+    /* setting img bottom right/ back of  the img , after , is the position for second image */
+    background-position: bottom right, left;
+}
+main{
+    max-width: 1140px;
+    /* auto is for left and right */
+    margin: 0 auto;
+}
+.about{
+margin-top: 130px;
+background-color: #FFF8F3;
+border-radius: 10px;
+/* padding top&bottom left&right  */
+padding: 130px 150px;
+text-align: center;
+
+}
+.section-title{
+
+margin-bottom: 30px;
+font-weight:  700;
+font-size: 35px;
+}
+
+.section-desc{
+color: #757575;
+font-size: 30px;
+margin-bottom: 30px;
+}
+
+
+.about-info-container{
+display: flex;
+/* below will put space around the 4 items */
+justify-content: space-around;
+}
+
+.about .info-title{
+    font-size: 20px;
+    color:  #757575;
+}
+
+.info-desc{
+    font-weight: 700 ;
+    font-size: 20px;
+    color: #474747;
+}
